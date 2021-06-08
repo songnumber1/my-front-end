@@ -5,6 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    appNavTitle: "App title",
+    appsubNavTitle : "sub title "
   },
   mutations: {
   },
