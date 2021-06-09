@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
 import GridSystem from '../views/GridSystem.vue'
+import ButtonIcon from '../views/ButtonIcon.vue'
+import GridListPage from '../views/GridListPage.vue'
 
 Vue.use(VueRouter)
 
@@ -14,10 +16,17 @@ const routes = [
   {
     path: '/grid-system',
     name: 'GridSystem',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: GridSystem
+  },
+  {
+    path: '/button-icon',
+    name: 'ButtonIcon',
+    component: ButtonIcon
+  },
+  {
+    path: '/grid-list-page',
+    name: 'GridListPage',
+    component: GridListPage
   }
 ]
 

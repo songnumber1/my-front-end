@@ -72,7 +72,9 @@
     </v-navigation-drawer>
 
     <v-main>
-      <router-view/>
+      <v-container fluid>
+        <router-view/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -87,6 +89,8 @@ export default {
         items: [
           { title: 'Dashboard', icon: 'mdi-view-dashboard', to:'/' },
           { title: 'Grid System', icon: 'mdi-view-dashboard', to:'/grid-system' },
+          { title: 'Button Icon', icon: 'mdi-view-dashboard', to:'/button-icon' },
+          { title: 'Grid List Page', icon: 'mdi-view-dashboard', to:'/grid-list-page' },
           { title: 'About', icon: 'mdi-help-box' },
         ],
         right: null,
