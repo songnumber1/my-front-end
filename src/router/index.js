@@ -4,6 +4,7 @@ import Dashboard from '../views/Dashboard.vue'
 import GridSystem from '../views/GridSystem.vue'
 import ButtonIcon from '../views/ButtonIcon.vue'
 import GridListPage from '../views/GridListPage.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,12 @@ const routes = [
     path: '/grid-list-page',
     name: 'GridListPage',
     component: GridListPage
-  }
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
 ]
 
 const router = new VueRouter({
