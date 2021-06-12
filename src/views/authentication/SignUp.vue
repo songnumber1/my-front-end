@@ -1,10 +1,15 @@
 <template>
-  <router-view></router-view>
+  <div>
+      SignUp
+  </div>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-};
+
+}
 </script>
+
+<style>
+
+</style>
