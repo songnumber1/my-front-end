@@ -1,166 +1,160 @@
 <template>
-  <v-container fluid>
-    <v-card class="pa-3">
-      <v-row no-gutters>
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+	<v-container fluid>
+		<v-card class="pa-3">
+			<v-row no-gutters>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-spacer/>
+				<v-spacer />
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
-      </v-row>
-      
-      <v-row>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
+			</v-row>
 
-        <v-spacer/>
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+			<v-row>
+				<v-spacer />
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-card>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
+			</v-row>
+		</v-card>
 
-    <v-card class="mt-5 pa-3">
-      <v-row justify="center">
-        <v-col cols="auto">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
-        
-        <v-col cols="auto">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+		<v-card class="mt-5 pa-3">
+			<v-row justify="center">
+				<v-col cols="auto">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col cols="auto">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+				<v-col cols="auto">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-      </v-row>
-    </v-card>
+				<v-col cols="auto">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
+			</v-row>
+		</v-card>
 
-<v-card class="mt-5 pa-3">
-      <v-row :style="{height:'120px'}"
-      class="red"
-      align="start">
-        <v-col cols="auto">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+		<v-card class="mt-5 pa-3">
+			<v-row :style="{ height: '120px' }" class="red" align="start">
+				<v-col cols="auto">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
-      </v-row>
-      
-      <v-row :style="{height:'120px'}" class="yellow">
-        <v-col align-self="end">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+				<v-col>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
+			</v-row>
 
-        <v-col align-self="center">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
+			<v-row :style="{ height: '120px' }" class="yellow">
+				<v-col align-self="end">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-        <v-col align-self="start">
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-card>
+				<v-col align-self="center">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
 
-    <!-- Vuetify 2.0 버전 -->
-    <v-card class="mt-5 pa-3">
-      <v-layout>
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
+				<v-col align-self="start">
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-col>
+			</v-row>
+		</v-card>
 
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
+		<!-- Vuetify 2.0 버전 -->
+		<v-card class="mt-5 pa-3">
+			<v-layout>
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
 
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
-      </v-layout>
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
 
-      <v-layout>
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
+			</v-layout>
 
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
+			<v-layout>
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
 
-        <v-flex>
-          <v-card class="pa-3" outlined>
-            Col
-          </v-card>
-        </v-flex>
-      </v-layout>
-    </v-card>
-    <!-- Vuetify 2.0 버전 -->    
-  </v-container>
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
+
+				<v-flex>
+					<v-card class="pa-3" outlined>
+						Col
+					</v-card>
+				</v-flex>
+			</v-layout>
+		</v-card>
+		<!-- Vuetify 2.0 버전 -->
+	</v-container>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {};
 </script>

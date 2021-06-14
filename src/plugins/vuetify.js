@@ -9,15 +9,14 @@ Vue.use(Vuetify);
 //     primary: colors.deepOrange, // #E53935
 // }
 
-
 export default new Vuetify({
-    breakpoint: {
-        mobileBreakpoint: 'xs'
-    },
-    // theme: {
-    //     themes: {
-    //         light: theme,
-    //         dark: theme
-    //     }
-    // }
+	breakpoint: {
+		mobileBreakpoint: 'xs'
+	}
+	// theme: {
+	//     themes: {
+	//         light: theme,
+	//         dark: theme
+	//     }
+	// }
 });

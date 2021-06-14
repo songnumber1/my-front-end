@@ -1,15 +1,17 @@
 <template>
-  <div>
-      SignUp
-  </div>
+	<div>
+		SignUp
+	</div>
 </template>
 
 <script>
 export default {
-
-}
+	methods: {
+		test() {
+			console.log('hi');
+		}
+	}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
