@@ -93,7 +93,7 @@ const routes = [
 		path: '/authentication',
 		component: () =>
 			import(
-				/* webpackChunkName: "layout-authentication */ '@/layouts/authentication/Index'
+				/* webpackChunkName: "layout-authentication" */ '@/layouts/authentication/Index'
 			),
 		children: [
 			{
