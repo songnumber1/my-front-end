@@ -9,20 +9,26 @@
 			<v-img :gradient="gradient" v-bind="props"> </v-img>
 		</template>
 
-		<drawer-header />
+		<default-drawer-header />
 		<v-divider />
 
 		<default-list :items="items"></default-list>
 	</v-navigation-drawer>
 </template>
 <script>
-import DrawerHeader from './DrawerHeader.vue';
-import DefaultList from './List.vue';
+// import DrawerHeader from './DrawerHeader.vue';
+// import DefaultList from './List.vue';
 export default {
 	name: 'DefaultDrawer',
 	components: {
-		DrawerHeader,
-		DefaultList
+		DefaultDrawerHeader: () =>
+			import(
+				/* webpackChunkName: "default-drawer-header" */ './DrawerHeader.vue'
+			),
+		DefaultList: () =>
+			import(/* webpackChunkName: "default-list" */ './List.vue')
+		// DrawerHeader,
+		// DefaultList
 	},
 	data() {
 		return {
