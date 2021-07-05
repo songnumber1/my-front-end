@@ -15,6 +15,8 @@ import VueRouter from 'vue-router';
 // import PageLayout from '@/layouts/page/Index';
 // import AuthenticationLayout from '@/layouts/authentication/Index';
 
+import JwtToken from '../views/spring/JwtToken';
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -128,6 +130,11 @@ const routes = [
 					)
 			}
 		]
+	},
+	{
+		path: '/spring-jwttoken',
+		name: JwtToken,
+		component: JwtToken
 	}
 ];
 
